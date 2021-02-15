@@ -1,0 +1,64 @@
+
+.App-header {
+  background-color: #f0efeb;
+  min-height: 25vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px + 2vmin);
+  text-align: center;
+}
+
+.header {
+  color: #cb997e;
+}
+
+.input-text {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  border-radius: 5px;
+  border-color: #8A5A44;
+}
+
+.submit-button {
+  text-align: center;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+  background-color: #ddbea9;
+  color: #774936;
+  border-radius: 5px;
+  border-color: #8A5A44;
+}
+
+.results {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.listItem {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: solid;
+  border-radius: 3px;
+  border-color: #e6b8a2;
+  min-width: 1000px;
+}
+
+.image {
+  border: solid;
+  border-color: #edc4b3;
+  min-width: 100px;
+  min-height: 100px;
+}
+
+.attraction-name {
+  color: #472d30;
+  font-weight: 500;
+  font-size: 20px;
+  margin: 10px;
+}
